@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My visit card</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="main-header">
+                <div id="navigationMain">
+                <div id="navigation">
+                   <nav>
+                     <a href="#"> <img class="logo" src="static/logo.png" alt="logo"></a>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#">
+                                home
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about" >
+                                about
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#works">
+                                work
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact__me">
+                                contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav> 
+                </div>
+                </div>
+                
+                <div class="title">
+                    <img src="static/photo.jpg" alt="Nastya Krupelnitskaya" class="my__photo">
+                    <h1 class="title__heading">
+                            Hi! I’m Nastya<br> Krupelnitskaya
+                    </h1>
+                    <p class="t__intro">
+                            Web Developer<br>
+                            UI/UX Designer
+                    </p>
+                    <a href="#contact__me">
+                    <div class="contact">
+                            <p class="button">Hire me</p>
+                    </div></a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</header>
+<section id="about" class="about">
+        <div class="container">
+            <h1 class="title__about">
+                About me
+            </h1>
+            <p class="a__intro">
+                I’m Developer and Web designer with little experience. My expertise<br>is to create and Websites design.
+            </p>
+            <p class="privacy__info">
+                Name: Krupelnitskaya Anastasiya<br>
+                Birthday: 01/01/1998<br>
+                Phone: +380932448783<br>
+                E-mail: krupelechek@gmail.com<br>
+                Skype: live:2f9ca56481ced868<br>
+                Adress: Kyiv, 2 Amosova st.
+            </p>
+            <div class="card">
+                    <p class="skill html">
+                      <span>HTML/CSS</span>
+                      <span class="level">90%</span>
+                    </p>
+                    <p class="skill css">
+                      <span>ADOBE PHOTOSHOP/FIGMA</span>
+                      <span class="level">95%</span>
+                    </p>
+                    <p class="skill javascript">
+                      <span>ADOBE ILLUSTRATOR</span>
+                      <span class="level">80%</span>
+                    </p>
+                
+                    <p class="skill canvas">
+                      <span>READYMAG</span>
+                      <span class="level">75%</span>
+                    </p>
+                  </div>
+        </div>
+</section>
+<section id="works" class="works">
+    <div class="container">
+        <h1 class="title__about">
+            My work
+        </h1>
+        <a href="verti/index.html" target="_blank">
+            <img src="static/1.png" alt="project">
+        </a>
+        <a href="design/index.html" target="_blank">
+             <img src="static/2.png" alt="project">
+        </a>
+        <a href="https://www.figma.com/file/XYeMeSMreZYNzLw5QXUzKz2C/Untitled" target="_blank">
+            <img src="static/3.png" alt="project">
+        </a>
+    </div>
+</section>
+<section id="contact__me" class="contact__me">
+    <div class="container">
+        <h1 class="title__about">
+            Need a Project?
+        </h1>
+            <p class="a__intro">
+                Let me know what you're looking. I'll take a look and see<br>
+                if this could be the start of something beautiful.
+            </p>
+                <div class="form">
+                    <form action="krupelechek@gmail.com" name="need__project" method="POST" class="user-form">
+                        <input type="text" name="username" placeholder="Your Name" class="txt__title">
+                        <input type="mail" name="mail" placeholder="Your Email" class="txt__title">
+                        <input type="phone" name="phone" placeholder="Your Phone" class="txt__title">
+                        <select name="service" name="service" class="select_service">
+                                <option value="Landing Page" selected>Landing Page</option>
+                                <option value="Website">Website</option>
+                                <option value="Design in Figma">Design in Figma</option>
+                                <option value="Internet Shop">Internet Shop</option>
+                        </select>
+                        <textarea name="text" id="comment" placeholder="Your Comment" class="comment"></textarea>
+                        <div class="dws__input">
+                        <input type="button" name="submit" value="SEND MESSAGE" class="button__submit">
+                </div>
+                    </form>
+                        <div class="hello-card">
+                            Thank you for your application, which I have accepted.
+                        </div>
+            </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="piroll">
+            <p> &copy; 2019 Nastya Krupelnitskaya.<br> All rights reserved.</p>
+        </div>
+        <div class="footer__contacts">
+            krupelechek@gmail.com <br>
+            +380932448783
+        </div>
+        <div class="social_links" >
+            <a href="https://github.com/krupelechek">GitHub</a>
+            <a href="https://www.behance.net/krupeleche24f7">Behance</a>
+            <a href="https://www.facebook.com/nkrupelnitskaya">Facebook</a> 
+            <a href="https://www.instagram.com/krupelechek/?hl=ru">Instagram</a> 
+        </div>
+    </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
